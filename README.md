@@ -1,7 +1,7 @@
 # CitiBike Linear_Regression_Proj1
 
 ## 1.0 Business Problem
-> The data and the description has been adapted from (https://en.wikipedia.org/wiki/Moneyball) and Udemy...
+> The data and the description has been adapted from Kaggles's Bike Sharing Demand Challenge and Udemy...
 > 
 
 
