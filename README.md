@@ -1,4 +1,4 @@
-# Linear_Regression_Proj1
+# CitiBike Linear_Regression_Proj1
 
 ## 1.0 Business Problem
 > The data and the description has been adapted from (https://en.wikipedia.org/wiki/Moneyball) and Udemy...
