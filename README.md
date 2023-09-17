@@ -38,3 +38,4 @@
 
 
 ## 5.0 Lessons Learned
+- Exploratory data analysis
