@@ -12,9 +12,10 @@ By visualizing statistical data, more effective business decisions can be made t
 The strategy to use a linear regression model to predict the total count of bikes rented during each hour, may improve the efficacy and implementation of new bike stations.
 
 ## 3.0 Solution Strategy
+My solution to solve this problem will be the development of a data science project. This project will have a linear regression model which can predict the total count of bikes rented during each hour.
 
-
-#### Step 01.Data Description: 
+#### Step 01.Data Description:
+In this first section the data will be collected and studied. The missing values will be threated or removed. Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.
 
 #### Step 02. Feature Engineering:
 
@@ -22,10 +23,10 @@ The strategy to use a linear regression model to predict the total count of bike
 #### Step 03. Data Filtering:
 
 
-#### Step 04. Data Preparation: 
+#### Step 04. Exploratory Data Analysis:
+The exploratory data analysis section consists of count vs datatime scattterplot with a color gradient based on temperature.  Following the exploratory data analysis two things can be clearly interpreted.  There is a seasonality to the data, for summer and winter.  Also the general increase of bike rental counts.  A possible problem to the linear regression model if the data is non-linear.
 
-
-#### Step 05. Data Analysis:
+#### Step 05. Data Preparation: 
 
 
 #### Step 06. Model Deployment:
