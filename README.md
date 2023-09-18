@@ -9,7 +9,7 @@ With a sudden boom in alternative quick and easy transportation taking off in th
 
 By visualizing statistical data, more effective business decisions can be made through transparency of information. Decisions about expansion can be made by identifying different factors that play a part in the frequency of bikes being rented.  This dataset gives insight into the seasons, holidays, and various statistical weather phenomena that impact rental frequency. 
 ## 2.0 Business Assumption
-
+The strategy to use a linear regression model to predict the total count of bikes rented during each hour, may improve the efficacy and implementation of new bike stations.
 
 ## 3.0 Solution Strategy
 
