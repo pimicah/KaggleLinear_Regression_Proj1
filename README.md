@@ -18,10 +18,10 @@ My solution to solve this problem will be the development of a data science proj
 In this first section the data will be collected and studied. The missing values will be threated or removed. Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.
 
 #### Step 02. Feature Engineering:
-
+In this section, I manipulate the structure of the datetime column to separate the dates and times.  The times will become its own variable.  Each time will become its own variable so that we may reference each of the specific 24 hours in the day.  
 
 #### Step 03. Data Filtering:
-There's minimal data filtering on this dataset.  
+There's minimal data filtering on this dataset.  Each column of the data set can be used as a dependent to predict total counts of bikes.  For this project we will be primarily looking at the temperature.
 
 #### Step 04. Exploratory Data Analysis:
 The exploratory data analysis section consists of count vs datatime scattterplot with a color gradient based on temperature.  Following the exploratory data analysis two things can be clearly interpreted.  There is a seasonality to the data, for summer and winter.  Also the general increase of bike rental counts.  A possible problem to the linear regression model if the data is non-linear.
