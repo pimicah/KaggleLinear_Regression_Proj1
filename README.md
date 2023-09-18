@@ -43,3 +43,6 @@ The exploratory data analysis section consists of count vs datatime scattterplot
 
 ## 5.0 Lessons Learned
 - Exploratory data analysis
+- R-Studio
+- Kaggle
+- Linear Regression Models
