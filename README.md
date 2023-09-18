@@ -7,10 +7,7 @@ A data science project stemmed from a previous data visualization project (https
 > 
 With a sudden boom in alternative quick and easy transportation taking off in the early 2010's, New York's Citi bike became the premium go to option for New York residents. Officially opening in May 2013 Citi Bike made a splash starting with 332 stations and 6,000 bikes across the Bronx, Brooklyn, Manhattan, and Queens, as well as Jersey City and Hoboken, New Jersey. By October 2017 annual expansions brought the totals to 706 stations and 12,000 bikes, making the service the largest bike sharing program in the United States. Further expansions for Citi Bike are planned to extend its service area across the Bronx, Brooklyn, Manhattan, and Queens, and increase the number of bikes to 40,000.
 
-
-
-
-
+By visualizing statistical data, more effective business decisions can be made through transparency of information. Decisions about expansion can be made by identifying different factors that play a part in the frequency of bikes being rented.  This dataset gives insight into the seasons, holidays, and various statistical weather phenomena that impact rental frequency. 
 ## 2.0 Business Assumption
 
 
