@@ -40,7 +40,7 @@ Using command "lm" we can create a fit linear model that predicts count based so
 A linear model like the one chosen which uses OLS won't be able to take into account seasonality of our data, and will get thrown off by the growth in our dataset, accidentally attributing it towards the winter season, instead of realizing its just overall demand growing.
 
 ## 3.0 Business Results
-A linear model like the one chosen doesn't work well given our seasonal and time series data.  The abundance of significance stars in the Pr(>|t|) column indicate that it's unlikely that no relationship exists and as well as the high level of residual min and max.
+A linear model like the one chosen doesn't work well given our seasonal and time series data.  The lack of significance stars in the Pr(>|t|) column indicate that it's unlikely that no relationship exists and as well as the high level of residual min and max.
 
 ## 4.0 Conclusion
 The use of exploratory data analysis and linear regression models can be a useful tool in defining metrics for predictive interpretations.
