@@ -1,3 +1,10 @@
-
 > Notes from Medium.com, How to derive B0 and B1 in Linear Regression- Part2.
->
+
+B0 represents the intercept, and B1 represents the slope in regression analysis. The relationship between Y and X is described by the equation Y = B0 + B1*X. 
+When examining variables that exhibit a linear trend, the regression curve takes the form Yi = B0 + B1Xi + Sigmai.
+
+Sigmai is commonly referred to as the Gaussian error term, and it is independent and normally distributed with a mean of zero and a variance of sigma^2. 
+Since the Gaussian error term is independent and follows a normal distribution, this implies that the response variable Y is also an independent random variable.
+
+In linear regression, our goal is to identify the best-fitting line, expressed as Y = B0 + B1*X. The parameters B0 and B1 are determined in such a way that the line represents the trend with the least amount of error. 
+Thus, the primary objective in linear regression is to find the values of B0 and B1 that minimize the error introduced when fitting the regression line."
