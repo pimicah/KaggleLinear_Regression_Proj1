@@ -21,3 +21,15 @@ but know that it is used to calculate the p-value and the significance levels.
 7. Significance Legend: The more punctuation there is next to your variables, the better.
 Blank=bad, Dots=pretty good, Stars=good, More Stars=very good
 
+8. Residual Std Error / Degrees of Freedom: The Residual Std Error is just the standard deviation of your residuals. You'd like this number to be proportional to the quantiles of the residuals in #1. For a normal distribution, 
+the 1st and 3rd quantiles should be 1.5 +/- the std error.
+The Degrees of Freedom is the difference between the number of observations included in your training sample and the number of variables used in your model (intercept counts as a variable).
+
+9. R-Squared: Metric for evaluating the goodness of fit of your model. Higher is better with 1 being the best. Corresponds with the amount of variability in what you're predicting that is explained by the model.
+While a high R-squared indicates good correlation, correlation does not always imply causation.
+
+10. F-statistic & resulting p-value: Performs an F-test on the model. This takes the parameters of our model (in our case we only have 1) and compares it to a model that has fewer parameters. 
+In theory the model with more parameters should fit better. If the model with more parameters (your model) doesn't perform better than the model with fewer parameters, 
+the F-test will have a high p-value (probability NOT significant boost). If the model with more parameters is better than the model with fewer parameters, you will have a lower p-value.
+
+The DF, or degrees of freedom, pertains to how many variables are in the model. In our case there is one variable so there is one degree of freedom.
