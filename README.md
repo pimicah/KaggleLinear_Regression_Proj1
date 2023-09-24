@@ -18,28 +18,32 @@ My solution to solve this problem will be the development of a data science proj
 In this first section the data will be collected and studied. The missing values will be threated or removed. Finally, a initial data description will carried out to know the data. Therefore some calculations of descriptive statistics will be made, such as kurtosis, skewness, media, fashion, median and standard deviation.
 
 #### Step 02. Feature Engineering:
-In this section, I manipulate the structure of the datetime column to separate the dates and times.  The times will become its own variable.  Each time will become its own variable so that we may reference each of the specific 24 hours in the day.  
+In this section, I manipulate the structure of the datetime column to separate the dates and times.  The times will become its own variable.  Each hour will become its own variable so that we may reference each of the specific 24 hours in the day.  
+![Featureengineering box](https://github.com/pimicah/KaggleLinear_Regression_Proj1/assets/144563378/fa15c11c-a1bc-4d68-a128-881ac8065ca7)
+![Hour plot](https://github.com/pimicah/KaggleLinear_Regression_Proj1/assets/144563378/5d7b9481-35bc-4ee8-9f00-9ee64d5f952c)
+![Weekend Plot](https://github.com/pimicah/KaggleLinear_Regression_Proj1/assets/144563378/a8e508fb-c436-4b72-8e58-b7bb7636e51f)
+
 
 #### Step 03. Data Filtering:
 There's minimal data filtering on this dataset.  Each column of the data set can be used as a dependent to predict total counts of bikes.  For this project we will be primarily looking at the temperature.
 
 #### Step 04. Exploratory Data Analysis:
-The exploratory data analysis section consists of count vs datatime scattterplot with a color gradient based on temperature.  Following the exploratory data analysis two things can be clearly interpreted.  There is a seasonality to the data, for summer and winter.  Also the general increase of bike rental counts.  A possible problem to the linear regression model if the data is non-linear.
+The exploratory data analysis section consists of count vs datatime scattterplot with a color gradient based on temperature.  Following the exploratory data analysis two things can be clearly interpreted.  There is a seasonality to the data, for summer and winter.  Also the general increase of bike rental counts.  A possible problem to the linear regression model if the data is non-linear.  Also being a time series of data it doesn't help to randomly select sections of the data as missing test points and try to predict them.
+![box plot](https://github.com/pimicah/KaggleLinear_Regression_Proj1/assets/144563378/b578aff6-03a3-4212-922b-f6bcddbd8ad1)
 
-#### Step 05. Data Preparation: 
+#### Step 05. Model Deployment:
+Using command "lm" we can create a fit linear model that predicts count based soley on the temperature feature, this allows us to carry out regression, single stratum analysis of variance and analysis of convariance.  Collecting the summary on the fit linear model we are given the residuals (the difference between the actual values of the variable we're predicting and the predicted values from the regression) and the coefficients.  The B0 can be interpreted as the y value when x is equal to 0, the estimated number of rentals when the temperature is 0 degrees.  More importantly for this project we can take a look at B1, the change in Y divided by the change in X.  Knowing this we can build another model that accounts for season, holiday, workingday, weather, temp, humidity, windspeed, and hour by deploying a model with a command that uses count and minus all the things we don't need like casual, registered, etc... 
+![Model deployment](https://github.com/pimicah/KaggleLinear_Regression_Proj1/assets/144563378/ca040ff4-4501-4673-8f6a-d2909ffd36bd)
 
 
-#### Step 06. Model Deployment:
-
-
-#### Step 07. Conclusion:
-
+#### Step 06. Conclusion:
+A linear model like the one chosen which uses OLS won't be able to take into account seasonality of our data, and will get thrown off by the growth in our dataset, accidentally attributing it towards the winter season, instead of realizing its just overall demand growing.
 
 ## 3.0 Business Results
-
+A linear model like the one chosen doesn't work well given our seasonal and time series data.  The abundance of significance stars in the Pr(>|t|) column indicate that it's unlikely that no relationship exists and as well as the high level of residual min and max.
 
 ## 4.0 Conclusion
-
+The use of exploratory data analysis and linear regression models can be a useful tool in defining metrics for predictive interpretations.
 
 ## 5.0 Lessons Learned
 - Exploratory data analysis
